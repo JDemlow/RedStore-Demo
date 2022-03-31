@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RedStore | Cart</title>
+    <title>RedStore | Details</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -45,77 +45,124 @@
       </div>
     </div>
 
-    <!-- Cart Item Details -->
+    <!-- single product details -->
 
-    <div class="small__container cart__page">
-      <table>
-        <tr>
-          <th>Product</th>
-          <th>Quantity</th>
-          <th>Subtotal</th>
-        </tr>
-        <tr>
-          <td>
-            <div class="cart__info">
-              <img src="images/buy-1.jpg" alt="" />
-              <div>
-                <p>Red Printed T-Shirt</p>
-                <small> Price: $50.00 </small>
-                <br />
-                <a href="">Remove</a>
-              </div>
+    <div class="container__small single__product">
+      <div class="row">
+        <div class="col-2">
+          <img src="images/gallery-1.jpg" alt="" class="gallery__img" />
+          <div class="smallImg__row">
+            <div class="smallImg__col">
+              <img src="images/gallery-1.jpg" alt="" class="small__img" />
             </div>
-          </td>
-          <td><input type="number" value="1" /></td>
-          <td>$50.00</td>
-        </tr>
-        <tr>
-          <td>
-            <div class="cart__info">
-              <img src="images/buy-2.jpg" alt="" />
-              <div>
-                <p>Black Cross Trainers</p>
-                <small> Price: $85.00 </small>
-                <br />
-                <a href="">Remove</a>
-              </div>
+            <div class="smallImg__col">
+              <img src="images/gallery-2.jpg" alt="" class="small__img" />
             </div>
-          </td>
-          <td><input type="number" value="1" /></td>
-          <td>$85.00</td>
-        </tr>
-        <tr>
-          <td>
-            <div class="cart__info">
-              <img src="images/buy-3.jpg" alt="" />
-              <div>
-                <p>Gray Sweatpants</p>
-                <small> Price: $45.00 </small>
-                <br />
-                <a href="">Remove</a>
-              </div>
+            <div class="smallImg__col">
+              <img src="images/gallery-3.jpg" alt="" class="small__img" />
             </div>
-          </td>
-          <td><input type="number" value="1" /></td>
-          <td>$45.00</td>
-        </tr>
-      </table>
+            <div class="smallImg__col">
+              <img src="images/gallery-4.jpg" alt="" class="small__img" />
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <p>Home / T-Shirt</p>
+          <h1>Red Printed T-Shirt by HRX</h1>
+          <h4>$50.00</h4>
+          <select>
+            <option>Select Size</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>XL</option>
+          </select>
+          <input type="number" value="1" />
+          <a href="" class="btn">Add to Cart</a>
+          <h3>Product Details <i class="fa-solid fa-indent"></i></h3>
+          <br />
+          <p>
+            Give your summer wardrobe a style upgrade with the HRX Men's Active
+            T-Shirt. Team it with a pair of shorts for your morning workout or
+            jeans for an evening on the town.
+          </p>
+        </div>
+      </div>
+    </div>
 
-      <div class="total__price">
-        <table>
-          <tr>
-            <td>Subtotal</td>
-            <td>$180.00</td>
-          </tr>
-          <tr>
-            <td>Tax</td>
-            <td>$37.00</td>
-          </tr>
-          <tr>
-            <td>Total</td>
-            <td>$207.00</td>
-          </tr>
-        </table>
+    <!-- Title -->
+
+    <div class="container_small">
+      <div class="row row__2">
+        <h2>Related Products</h2>
+        <p>View More</p>
+      </div>
+    </div>
+
+    <!-- Products -->
+
+    <div class="container__small">
+      <div class="row">
+        <div class="col-4">
+          <img
+            src="images/product-9.jpg"
+            alt="A picture of a gray wrist watch"
+          />
+          <h4>Gray Wrist Watch</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>$80.00</p>
+        </div>
+        <div class="col-4">
+          <img
+            src="images/product-10.jpg"
+            alt="A picture of a pair of black running shoes"
+          />
+          <h4>Black Running Shoes</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p>$90.00</p>
+        </div>
+        <div class="col-4">
+          <img
+            src="images/product-11.jpg"
+            alt="A picture of a pair of gray slip on shoes"
+          />
+          <h4>Gray Slip On Shoes</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half"></i>
+          </div>
+          <p>$75.00</p>
+        </div>
+        <div class="col-4">
+          <img
+            src="images/product-12.jpg"
+            alt="A picture of a man facing front wearing a pair of black running pants"
+          />
+          <h4>Black Running Pants</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half"></i>
+          </div>
+          <p>$40.00</p>
+        </div>
       </div>
     </div>
 
